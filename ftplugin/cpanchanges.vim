@@ -10,10 +10,14 @@ if exists("b:did_ftplugin") | finish | endif
 let b:did_ftplugin = 1
 
 " attempt to replace tabs with two spaces as naturally as possible
+" TODO: instead of this make an indent plugin
 setlocal autoindent
 setlocal expandtab
 setlocal shiftwidth=2
 setlocal smarttab
 setlocal softtabstop=2
 setlocal tabstop=2
+
 setlocal textwidth=80
+
+let b:undo_ftplugin = "setl ai< et< sw< sta< sts< ts< tw<"
