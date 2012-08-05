@@ -5,9 +5,6 @@
 " Bugs/requests: http://github.com/rwstauner/vim-cpanchanges/issues
 " Last Change:   2011-02-10
 " Spec:          http://metacpan.org/module/CPAN::Changes::Spec
-"
-" add a line like this to filetype.vim:
-"   autocmd  BufNewFile,BufRead Changes  setf cpanchanges
 
 if exists("b:current_syntax")
   finish
