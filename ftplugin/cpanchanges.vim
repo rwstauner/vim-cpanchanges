@@ -1,10 +1,10 @@
 " Vim filetype plugin file
 " Language:      Perl CPAN Changes file
 " Maintainer:    Randy Stauner <randy@magnificent-tears.com>
-" Homepage:      http://github.com/petdance/vim-perl/tree/master
-" Bugs/requests: http://github.com/petdance/vim-perl/issues
+" Homepage:      http://github.com/rwstauner/vim-cpanchanges
+" Bugs/requests: http://github.com/rwstauner/vim-cpanchanges/issues
 " Last Change:   2011-02-10
-" Spec:          http://search.cpan.org/perldoc?CPAN::Changes::Spec
+" Spec:          http://metacpan.org/module/CPAN::Changes::Spec
 "
 " add a line like this to filetype.vim:
 "   autocmd  BufNewFile,BufRead Changes  setf cpanchanges
